@@ -1,0 +1,1 @@
+The other answers either present a manual string replacement, URLEncoder which actually encodes for HTML format, Apache's abandoned URIUtil, or using Guava's UrlEscapers. The last one is fine, except it doesn't provide a decoder.
